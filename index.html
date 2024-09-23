@@ -35,6 +35,14 @@
         >
           Download for Android
         </a>
+
+        <a
+          id="ios-download"
+          class="download-button coming-soon-button"
+          href="#"
+        >
+          Download for iOS
+        </a>
       </div>
     </div>
     <div class="footer">
@@ -42,5 +50,36 @@
       <a href="#">Privacy Policy</a>
       <div>Made by <a href="https://t.me/Abking1" class="myName">Abuki</a></div>
     </div>
+
+    <!-- Modal for "Coming Soon" Message -->
+    <div id="coming-soon-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Coming Soon!</h2>
+        <p>The iOS version is under development. Stay tuned!</p>
+      </div>
+    </div>
   </body>
+
+  <script>
+    const modal = document.getElementById("coming-soon-modal");
+    const closeBtn = document.getElementsByClassName("close")[0];
+
+    document
+      .getElementById("ios-download")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        modal.style.display = "block";
+      });
+
+    closeBtn.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
 </html>
