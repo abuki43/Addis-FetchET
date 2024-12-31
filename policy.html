@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addis-Fetch Policy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        font-family: "Poppins", sans-serif;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        line-height: 1.6;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        background-blend-mode: darken;
+        z-index: -1;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      .policy-header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .title {
+        font-size: 3em;
+        font-weight: 800;
+        letter-spacing: -1px;
+        background: linear-gradient(90deg, #ff8c00, #ff4500);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+        animation: textGlow 1.5s infinite alternate;
+      }
+
+      .policy-section {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        padding: 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 8px 15px rgba(255, 69, 0, 0.1);
+      }
+
+      .section-title {
+        font-size: 1.8em;
+        color: #ff8c00;
+        margin-bottom: 20px;
+        text-shadow: 0 0 10px rgba(255, 140, 0, 0.3);
+      }
+
+      .section-content {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.1em;
+        margin-bottom: 20px;
+      }
+
+      .warning-text {
+        color: #ff4500;
+        font-weight: 600;
+        padding: 15px;
+        background: rgba(255, 69, 0, 0.1);
+        border-radius: 8px;
+        margin: 15px 0;
+      }
+
+      .safety-list {
+        list-style: none;
+        padding-left: 20px;
+      }
+
+      .safety-list li {
+        margin-bottom: 15px;
+        position: relative;
+        padding-left: 25px;
+      }
+
+      .safety-list li:before {
+        content: "⚠️";
+        position: absolute;
+        left: -5px;
+        top: 0;
+      }
+
+      .contact-button {
+        display: inline-block;
+        padding: 15px 30px;
+        background: linear-gradient(135deg, #ff8c00, #ff4500);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 30px 0;
+        margin-top: 60px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        .title {
+          font-size: 2.5em;
+        }
+        .section-title {
+          font-size: 1.5em;
+        }
+        .section-content {
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <header class="policy-header">
+        <h1 class="title">Addis-Fetch Policy</h1>
+        <p class="section-content">
+          P2P Item Delivery Platform - User Responsibility Notice
+        </p>
+      </header>
+
+      <section class="policy-section">
+        <h2 class="section-title">Platform Purpose</h2>
+        <div class="section-content">
+          Addis-Fetch is a cross-border Android app that ONLY connects users for
+          P2P item delivery. We are strictly a connection platform and DO NOT
+          guarantee any transaction safety or user authenticity.
+          <div class="warning-text">
+            IMPORTANT: We are only a connection platform. Users are 100%
+            responsible for all transactions, agreements, and outcomes.
+          </div>
+        </div>
+      </section>
+
+      <section class="policy-section">
+        <h2 class="section-title">User Information</h2>
+        <div class="section-content">
+          <p>We collect only basic information:</p>
+          <ul class="safety-list">
+            <li>Name (not verified)</li>
+            <li>Phone number (not verified)</li>
+            <li>Email address (not verified)</li>
+          </ul>
+          <div class="warning-text">
+            WARNING: User profiles may not be authentic. We do not verify user
+            identities or validate provided information.
+          </div>
+        </div>
+      </section>
+
+      <section class="policy-section">
+        <h2 class="section-title">Critical Safety Warnings</h2>
+        <div class="section-content">
+          <div class="warning-text">
+            BE AWARE: Scammers may use our platform. Protect yourself at all
+            times.
+          </div>
+          <ul class="safety-list">
+            <li>NEVER trust users blindly - verify everything yourself</li>
+            <li>NEVER make advance payments without securing your interests</li>
+            <li>NEVER share sensitive personal information with other users</li>
+            <li>DO NOT trust profile information - it may be fake</li>
+            <li>AVOID deals that seem too good to be true</li>
+            <li>MEET in safe, public places when possible</li>
+            <li>DOCUMENT everything with photos and messages</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="policy-section">
+        <h2 class="section-title">Liability Disclaimer</h2>
+        <div class="section-content">
+          <div class="warning-text">
+            Addis-Fetch takes NO RESPONSIBILITY for:
+          </div>
+          <ul class="safety-list">
+            <li>Any loss of money or items during transactions</li>
+            <li>Scams or fraudulent activities by users</li>
+            <li>Accuracy of user information or profiles</li>
+            <li>Disputes between users</li>
+            <li>Quality or condition of items exchanged</li>
+            <li>Delivery delays or failures</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="policy-section">
+        <h2 class="section-title">Report Issues</h2>
+        <div class="section-content">
+          While we cannot take responsibility for transactions, please report
+          suspicious users:
+          <br /><br />
+          <a href="mailto:support@addis-fetch.com" class="contact-button"
+            >support@addis-fetch.com</a
+          >
+          <div class="warning-text">
+            Note: Reporting users does not guarantee any resolution or
+            compensation.
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          © 2024 Addis-Fetch. All Rights Reserved. |
+          <a href="#" style="color: #ff8c00; text-decoration: none"
+            >Privacy Policy</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
